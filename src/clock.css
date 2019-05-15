@@ -1,19 +1,19 @@
 .analog_clock_codexen {
-    width: 200px;
+	width: 200px;
     height: 200px;
-    background-color: #e6e6e6;
-    border: 2px solid #9E9E9E;
+    background-color: #f5f5f5;
+    border: 1px solid #c7c7c7;
     border-radius: 50%;
-    box-shadow: 0 0 35px 0 #ccc;
+    box-shadow: 0 0 16px 0 #ececec;
     position: relative;
-    font-family: arial, sans-serif;
+    font-family: arial,sans-serif;
     font-size: 15px;
 }
 
 .analog_clock_codexen #sec-hand {
 	width: 1px;
 	height: 50%;
-	background-color: black;
+	background-color: #000;
 	transform-origin: 50% 80%;
 	position: absolute;
 	top: 10%;
@@ -23,7 +23,7 @@
 .analog_clock_codexen #min-hand {
 	width: 3px;
 	height: 40%;
-	background-color: #795548;
+	background-color: #000;
 	transform-origin: 50% 80%;
 	position: absolute;
 	top: 18%;
@@ -33,7 +33,7 @@
 .analog_clock_codexen #hr-hand {
     width: 3px;
     height: 25%;
-    background-color: #795548;
+    background-color: #000;
     transform-origin: 50% 80%;
     position: absolute;
     top: 30%;
@@ -49,7 +49,7 @@
 .analog_clock_codexen .num div {
 	width: 1em;
 	line-height: 2em;
-	color: brown;
+	color: #000;
 	text-align: center;
 	vertical-align: middle;
 }
